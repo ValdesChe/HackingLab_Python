@@ -8,11 +8,14 @@ This repo contains basic material for ethical hacking purpose. The tools used ar
 
 #  Features!
 
-|  | name | Description and role   |
-| -------|------|--------------------------|
-| 1 | MAC ADDRESS CHANGER | Allows us to change the MAC of a physical interface in order to impersonate a victim or bypass filters |
-| 2 | ...... | .........*************** |
-| 3 | ...... | .........*************** |
+|  | name | Description and role   | Example |
+| -------|------|--------------------------|--------------------------|
+| 1 | MAC ADDRESS CHANGER | Allows us to change the MAC of a physical interface in order to impersonate a victim or bypass filters | ```sh
+$ python mac_changer.py -i wlan0 -m 00:fe:42:75:a1:65
+$ ifconfig
+``` |
+| 2 | ...... | ......... | ---------- | 
+| 3 | ...... | .........| ------------|
 
 
 
